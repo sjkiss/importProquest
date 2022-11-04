@@ -25,8 +25,8 @@ extractMeta<-function(y){
 ID<-purrr::map(y, getID)
 ID<-purrr::reduce(ID,c)
   #Run get full text
-  text<-purrr::map(y, getFullText) %>%
-    purrr::map(.data, function(x) paste(x, collapse=""))
+  text<-purrr::map(y, getFullText)
+text<-purrr::map(text, function(x) paste(x, collapse=""))
   text<-purrr::reduce(text,c)
  df<-data.frame(titles, dates, origin, text, section, ID)
  return(df)

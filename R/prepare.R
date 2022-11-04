@@ -35,9 +35,6 @@ prepare <- function(path="path_name") {
  #Split the file at num
  num <- cumsum(grepl("______________", content))
  content <- split(content, num)
-#Run the extract meta data
-content<-extractMeta(content)
-content
+
 }
-?readLines
 
