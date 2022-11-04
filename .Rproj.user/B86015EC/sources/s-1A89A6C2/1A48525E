@@ -3,7 +3,7 @@
     "path": "~/OneDrive - Wilfrid Laurier University/projects_folder/ImportProquest/R/extractMeta.R",
     "project_path": "R/extractMeta.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "3285493724",
     "contents": "",
     "dirty": false,
     "created": 1667568758916.0,
@@ -17,11 +17,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1667574845,
+    "lastKnownWriteTime": 1667576236,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1667574845953,
+    "last_content_update": 1667576236384,
     "read_only": false,
     "read_only_alternatives": []
 }

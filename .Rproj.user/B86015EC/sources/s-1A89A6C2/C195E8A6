@@ -3,7 +3,7 @@
     "path": "~/OneDrive - Wilfrid Laurier University/projects_folder/ImportProquest/R/getDate.R",
     "project_path": "R/getDate.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "192379298",
     "contents": "",
     "dirty": false,
     "created": 1667574778880.0,
@@ -17,11 +17,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1667571269,
+    "lastKnownWriteTime": 1667576247,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1667571269,
+    "last_content_update": 1667576247857,
     "read_only": false,
     "read_only_alternatives": []
 }

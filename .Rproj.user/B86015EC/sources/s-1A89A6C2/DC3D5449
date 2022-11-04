@@ -3,7 +3,7 @@
     "path": "~/OneDrive - Wilfrid Laurier University/projects_folder/ImportProquest/R/prepare.R",
     "project_path": "R/prepare.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "802876166",
     "contents": "",
     "dirty": false,
     "created": 1667501912396.0,
@@ -16,11 +16,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1667575394,
+    "lastKnownWriteTime": 1667576202,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1667575394760,
+    "last_content_update": 1667576202270,
     "read_only": false,
     "read_only_alternatives": []
 }
