@@ -3,7 +3,6 @@
 #'
 #' @param path A character vector to the file location to be imported, processed with metadata extracted.
 #' @returns A data.frame of document-level meta data and full text.
-#' @examples prepare(path="inst/star.txt")
 #' @export
 
 prepare <- function(path="path_name") {
@@ -40,5 +39,5 @@ prepare <- function(path="path_name") {
 content<-extractMeta(content)
 content
 }
-
+?readLines
 
