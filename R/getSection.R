@@ -1,4 +1,9 @@
 getSection<-function(x){
-    #Make a data.frame
+    #Set if()
+  if(any(grepl('^Section:', x))) {
   section<-gsub('Section:', '', grep('^Section:', x, value=TRUE))
+  return(section)
+  } else{
+    return(NA)
+  }
 }

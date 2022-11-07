@@ -1,5 +1,10 @@
 getDate<-function(x){
-    #Make a data.frame
+    #Set If() condition
+  if(any(grepl('^Publication date:', x))) {
     datetimestamp<-as.Date(
       gsub('Publication date: ', '', grep('^Publication date:', x, value=TRUE)), format="%b %d, %Y")
+    return(datetimestamp)
+  } else {
+    return(NA)
   }
+}

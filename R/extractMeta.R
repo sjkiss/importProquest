@@ -20,7 +20,7 @@ extractMeta<-function(y){
   origin<-purrr::reduce(origin,c)
   #Run to get section
   section<-purrr::map(y, getSection)
-  section<-purrr::reduce(origin,c)
+  section<-purrr::reduce(section,c)
   #Run to get ProQuestID
 ID<-purrr::map(y, getID)
 ID<-purrr::reduce(ID,c)
