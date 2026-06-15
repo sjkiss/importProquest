@@ -15,3 +15,7 @@ A data.frame of document-level meta data and full text.
 \description{
 prepare
 }
+\examples{
+df<-prepare(path=system.file("extdata", "star.txt", package="importProquest"))
+str(df)
+}
