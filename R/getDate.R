@@ -1,10 +1,4 @@
-getDate<-function(x){
-    #Set If() condition
-  if(any(grepl('^Publication date:', x))) {
-    datetimestamp<-as.Date(
-      gsub('Publication date: ', '', grep('^Publication date:', x, value=TRUE)), format="%b %d, %Y")
-    return(datetimestamp)
-  } else {
-    return(NA)
-  }
+getDate <- function(x){
+  raw <- gsub('Publication date: ', '', grep('^Publication date:', x, value=TRUE))
+  as.Date(gsub('\\s+', '', raw), format = "%b%d,%Y")   # kill ProQuest stray spaces
 }
